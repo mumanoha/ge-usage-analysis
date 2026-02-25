@@ -1,0 +1,4 @@
+functions-framework
+requests
+google-auth
+google-cloud-bigquery
