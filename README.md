@@ -24,8 +24,8 @@ This solution automates the daily export of Gemini Enterprise metrics from Disco
 ### 1. Repository Setup
 
 ```bash
-gcloud source repos clone muthumano-ge-usage-analysis --project=cloud-ce-shared-csr
-cd muthumano-ge-usage-analysis
+git clone https://github.com/mumanoha/ge-usage-analysis.git
+cd ge-usage-analysis
 
 ```
 
@@ -34,8 +34,8 @@ cd muthumano-ge-usage-analysis
 The `deploy_burns_env.sh` script automates API enablement and service deployment:
 
 ```bash
-chmod +x deploy_burns_env.sh
-./deploy_burns_env.sh
+chmod +x deploy_env.sh
+./deploy_env.sh
 
 ```
 
